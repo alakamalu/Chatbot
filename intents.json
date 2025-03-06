@@ -1,0 +1,557 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good day",
+        "How are you?",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with MindTech Digital Solutions today?",
+        "Hi there! What can I do for you?",
+        "Good day! How may I help you?",
+        "I'm doing well, thank you! How can I assist you today?",
+        "Hello! I'm here to help. What can I do for you?"
+      ]
+    },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you provide?",
+          "Tell me more about your services",
+          "What can MindTech Digital Solutions do for me?",
+          "What does MindTech Digital Solutions offer?",
+          "What are your services?"
+        ],
+        "responses": [
+          "We provide a range of services including Business Consulting, Branding, Digital Marketing, B2B Marketing, and Website & App Development."
+        ]
+      },
+      {
+        "tag": "business consulting",
+        "patterns": [
+          "Tell me about your business consulting",
+          "What does your business consulting involve?",
+          "What can I expect from your business consulting?",
+          "What are the benefits of your business consulting?",
+          "What are the advantages of your business consulting?"
+        ],
+        "responses": [
+          "Our Business Consulting service includes comprehensive research, competitor analysis, SWOT positioning, digital audit, and strategy development."
+        ]
+      },
+      {
+        "tag": "branding",
+        "patterns": [
+          "Tell me about your branding services",
+          "What does your branding involve?",
+          "What can I expect from your branding services?",
+          "What are the benefits of your branding services?",
+          "What are the advantages of your branding services?"
+        ],
+        "responses": [
+          "Our branding services cover strategy, logo design, visual identity, and promotional materials to create a strong brand identity."
+        ]
+      },
+      {
+        "tag": "digital marketing",
+        "patterns": [
+          "Tell me about your digital marketing services",
+          "What does your digital marketing involve?",
+          "What can I expect from your digital marketing services?",
+          "What are the benefits of your digital marketing services?",
+          "What are the advantages of your digital marketing services?"
+        ],
+        "responses": [
+          "We specialize in digital marketing, including social media, SEO, influencer marketing, and content strategy to reach your audience effectively."
+        ]
+      },
+      {
+        "tag": "b2b marketing",
+        "patterns": [
+          "Tell me about your B2B marketing services",
+          "What does your B2B marketing involve?",
+          "What can I expect from your B2B marketing services?",
+          "What are the benefits of your B2B marketing services?",
+          "What are the advantages of your B2B marketing services?"
+        ],
+        "responses": [
+          "For B2B, we offer LinkedIn selling, lead gen, content amplification, and account-based marketing to build valuable partnerships."
+        ]
+      },
+      {
+        "tag": "website app development",
+        "patterns": [
+          "Tell me about your website and app development services",
+          "What does your website and app development involve?",
+          "What can I expect from your website and app development services?",
+          "What are the benefits of your website and app development services?",
+          "What are the advantages of your website and app development services?"
+        ],
+        "responses": [
+          "Our team handles web and app development, Shopify and WordPress sites, software, and ongoing maintenance for a robust online presence."
+        ]
+      },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What's your contact information?",
+        "Where can I reach you?",
+        "I want to get in touch",
+        "Can I have your contact details?"
+      ],
+      "responses": [
+        "You can reach us through our contact page on our website. Our email is contact@mtds.in and our phone number is +91 97 42 56 03 37.",
+        "Please visit our contact page for our contact information. You can also email us at contact@mtds.in or call us at +91 97 42 56 03 37.",
+        "You can get in touch with us through our website. Our email is contact@mtds.in and our phone number is +91 97 42 56 03 37.",
+        "Our contact details are available on our website. You can email us at contact@mtds.in or call us at +91 97 42 56 03 37.",
+        "Please visit our website to view our contact information. Our email is contact@mtds.in and our phone number is +91 97 42 56 03 37."
+      ]
+    },
+    {
+      "tag": "about us",
+      "patterns": [
+        "Tell me about your company",
+        "What does MindTech Digital Solutions do?",
+        "I want to know more about MindTech Digital Solutions",
+        "Can you tell me about MindTech Digital Solutions?",
+        "What can you tell me about your company?"
+      ],
+      "responses": [
+        "MindTech Digital Solutions is a company that provides a range of services including Business Consulting, Branding, Digital Marketing, B2B Marketing, and Website & App Development. Our services improve your online presence and expediate your business growth. We assist companies in developing innovative digital goods and experiences.",
+        "You can learn more about us on our about page on our website.",
+        "We are a digital solutions company that helps businesses grow by providing a range of services.",
+        "Our company specializes in providing digital solutions to businesses.",
+        "You can find more information about our company on our website."
+      ]
+    },
+    {
+      "tag": "plans and pricing",
+      "patterns": [
+        "Tell me about your plans and pricing",
+        "What are your rates?",
+        "How much do your services cost?",
+        "Can you tell me about your pricing?",
+        "What are your prices?"
+      ],
+      "responses": [
+        "You can find information about our plans and pricing on our website.",
+        "Our rates vary depending on the services you choose. You can find more details on our website.",
+        "The cost of our services depends on the specific services you are interested in. Please visit our website for more information.",
+        "You can find detailed information about our pricing on our website.",
+        "Please visit our website to view our plans and pricing."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Farewell",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Feel free to return if you have more questions.",
+        "See you later! Don't hesitate to reach out if you need anything else.",
+        "Farewell! It was a pleasure assisting you.",
+        "Catch you later! I'm here whenever you need help."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "What is your address?",
+        "Where are you located?",
+        "What is the address of MindTech Digital Solutions?",
+        "Can you provide your location?"
+      ],
+      "responses": [
+        "You can find us at 4th Floor Mehul towers, Bannerghatta Main Road, next to MICO back gate, Bengaluru – 560030."
+      ]
+    },
+    {
+      "tag": "website plans pricing",
+      "patterns": [
+        "Website Development Plans and Pricing",
+        "What are your website development plans?",
+        "Can you provide information about your website development pricing?",
+        "I'd like to know about your website development packages and costs.",
+        "Tell me about your website development plans and pricing."
+      ],
+      "responses": [
+        "Certainly! We offer various website development packages tailored to your needs. Here's a breakdown of our services and pricing:"
+      ]
+    },{
+      "tag": "service website",
+      "patterns": [
+        "Service Website",
+        "Tell me about the Service Website plan",
+        "What features are included in the Service Website package?",
+        "Can you provide details about the Service Website plan?"
+      ],
+      "responses": [
+        "Our Service Website plan is priced at ₹6999/- (Exclusive GST) and includes the following features: [List of features as provided in the content.]"
+      ]
+    },
+    {
+      "tag": "ecommerce website",
+      "patterns": [
+        "E-commerce Website",
+        "Tell me about the E-commerce Website plan",
+        "What features are included in the E-commerce Website package?",
+        "Can you provide details about the E-commerce Website plan?"
+      ],
+      "responses": [
+        "Our E-commerce Website plan is priced at ₹11999/- (Exclusive GST) and includes the following features: [List of features as provided in the content.]"
+      ]
+    },
+      {
+        "tag": "about us",
+        "patterns": [
+          "About Us",
+          "About MindTech Digital Solutions",
+          "Tell me about your company",
+          "What does MindTech Digital Solutions do?",
+          "Who is MindTech Digital Solutions?"
+        ],
+        "responses": [
+          "At MindTech Digital Solutions, we believe in the transformative power of digital innovation. Our mission is to assist companies in developing innovative digital goods and experiences that are simple, elegant, and powerful, unleashing new value and revolutionizing organizations."
+        ]
+      },
+      {
+        "tag": "approach",
+        "patterns": [
+          "What is your approach?",
+          "How do you approach your work?",
+          "Tell me about your approach",
+          "What sets you apart?",
+          "How do you create content?"
+        ],
+        "responses": [
+          "We understand that content needs to be more than just brilliant; it needs to be strategic and impactful. That's why we focus on creating content that not only captivates but also drives results, making our marketing platform the best in its class."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "Tell me about your services",
+          "What can I expect from your services?",
+          "What does MindTech Digital Solutions provide?",
+          "What are your offerings?"
+        ],
+        "responses": [
+          "With over 3 international clients, 30 national clients, and 25 projects completed, we offer a range of services tailored to meet the unique needs of our clients. These include Digital Marketing, Business Consulting, Branding, B2B Marketing, and Website & App Development."
+        ]
+      },
+      {
+        "tag": "why choose us",
+        "patterns": [
+          "Why should I choose you?",
+          "What makes you different?",
+          "Why should I choose MindTech Digital Solutions?",
+          "What are your advantages?",
+          "Why are you the best choice?"
+        ],
+        "responses": [
+          "We differentiate ourselves through innovative designs, dedicated support, and quantifiable results. Our designs lead and inspire, setting new standards in creativity and effectiveness. We're committed to our clients' success, providing dedicated support to address any issues or concerns promptly. Our focus is on making a big and quantifiable difference for every client, delivering measurable results that drive growth."
+        ]
+      },
+      {
+        "tag": "customer testimonials",
+        "patterns": [
+          "What do your customers say?",
+          "Can I hear some testimonials?",
+          "Do you have customer reviews?",
+          "What are your customers saying?",
+          "Can you share customer feedback?"
+        ],
+        "responses": [
+          "Here are some testimonials from our customers: Roshan: 'We are taking Digital Marketing services from MindTech Digital Solutions for the past 1 year. They have set high standards in quality. Very Happy with the services and the work is done very promptly.'\n- Devraj: 'Good service and happy with staff reply and when it comes to work they are perfect. I highly recommend to all business people for digital marketing from this company only.'\n- Sumitra: 'MindTech Digital Solutions has been a great benefit to our organization. Their knowledge and experience in online marketing has produced great results for us.'\n- Farhan: 'These guys are just amazing. They were given a mission to create a website for our professional firm. They met and exceeded all of our expectations and in a matter of days we had a great website that has served us very well.'"
+        ]
+      },        
+    {
+      "tag": "thank you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thankyou",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You are welcome! I'm here to help.",
+        "No problem at all! I'm glad I could assist.",
+        "I'm happy to help! Let me know if you need anything else.",
+        "It's my pleasure! Don't hesitate to ask if you have more questions.",
+        "You are very welcome! I'm here whenever you need assistance."
+      ]
+    },
+    {
+        "tag": "vulgar words",
+        "patterns": [
+          "Shit",
+          "Fucking idiot",
+          "Bitch",
+          "Asshole",
+          "Damn"
+        ],
+          "responses": [
+            "I'm sorry, but I can't assist with that.",
+            "Sorry, but I can't help with that.",
+            "I'm unable to assist with that."
+        ]
+      },
+      {
+          "tag": "about me",
+          "patterns": [
+            "Tell me about you",
+            "What can you do?",
+            "What are your capabilities?",
+            "What is your function?",
+            "What is your purpose?"
+        ],
+          "responses": [
+            "I'm Mindbot, a chatbot designed to assist with a variety of tasks. I can provide information, answer questions, and engage in conversation. My goal is to make your experience as smooth and enjoyable as possible.",
+            "As Mindbot, I'm here to help you. I can provide information on a wide range of topics, answer questions, and assist with tasks.",
+            "I'm Mindbot, your AI assistant. I'm here to help you with information and tasks to the best of my ability.",
+            "I'm Mindbot, an AI developed to assist users like you. I can provide information, answer questions, and more."
+        ]
+      },
+      {
+          "tag": "name",
+          "patterns": [
+            "What is your name?",
+            "Who are you?",
+            "What should I call you?",
+            "What's your name?"
+         ],
+          "responses": [
+            "My name is Mindbot.",
+            "You can call me Mindbot.",
+            "I'm Mindbot.",
+            "I am known as Mindbot."
+        ]
+       },
+       {
+      "tag": "sounds",
+      "patterns": [
+        "ha",
+        "haha",
+        "hahaha",
+        "hehe",
+        "hmm",
+        "hmmm",
+        "hmmmm",
+        "okay",
+        "ok",
+        "ok then",
+        "alright",
+        "alright then",
+        "uh huh",
+        "uhhuh",
+        "uh-huh",
+        "hu",
+        "ahh",
+        "ahhh",
+        "ahhhh",
+        "ahhhhh"
+      ],
+      "responses": [
+        "Is there something else you would like to discuss?",
+        "Can I assist you with anything else?",
+        "Would you like to know more about any other topic?",
+        "Is there another topic you are interested in?",
+        "Do you have any other questions?",
+        "Anything else you would like to know?",
+        "What else can I assist you with?",
+        "What other information can I provide?",
+        "What else would you like to discuss?",
+        "Do you need help with something else?",
+        "Can I help you with another topic?",
+        "Would you like to ask about something else?",
+        "Is there another question you have?",
+        "What other questions do you have?",
+        "Do you have any other queries?",
+        "What else are you curious about?",
+        "What other topics are you interested in?",
+        "What else would you like to know?",
+        "Do you have any other topics in mind?",
+        "What else can I help you with?"
+      ]
+    },
+    {
+      "tag": "query",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Can you assist me?",
+        "I need help"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to assist. What can I do for you?",
+        "Sure, I'd be happy to help. What do you need assistance with?",
+        "Absolutely! What can I help you with today?"
+      ]
+    },
+    {
+      "tag": "affirmative",
+      "patterns": [
+        "Yes",
+        "Sure",
+        "Absolutely",
+        "Definitely",
+        "Of course"
+      ],
+      "responses": [
+        "Great! How can I assist you further?",
+        "Excellent! What else can I do for you?",
+        "Fantastic! Do you have any other questions?",
+        "Awesome! What else would you like to know?",
+        "Super! How else can I assist you?"
+      ]
+    },
+    {
+      "tag": "negative",
+      "patterns": [
+        "No",
+        "Not really",
+        "I don't think so",
+        "Maybe not",
+        "Not at the moment"
+      ],
+      "responses": [
+        "Alright, let me know if you need anything.",
+        "No problem, feel free to ask if you have questions later.",
+        "Okay, I'm here if you need help in the future.",
+        "Sure, don't hesitate to reach out if you need something later.",
+        "That's fine, I'm here whenever you need assistance."
+      ]
+    },
+    {
+      "tag": "confused",
+      "patterns": [
+        "I don't understand",
+        "I'm confused",
+        "Can you explain that?",
+        "What do you mean?",
+        "I didn't get that"
+      ],
+      "responses": [
+        "I'm sorry for the confusion. Let's try again. How can I assist you?",
+        "My apologies if that was unclear. Could you please provide more details?",
+        "I'm sorry if I caused any confusion. Can you please elaborate on your question?",
+        "Apologies for the misunderstanding. Could you please rephrase your question?",
+        "I'm sorry if my response was confusing. Can you please clarify your query?"
+      ]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": [
+        "You are great",
+        "You are awesome",
+        "You are good",
+        "You are helpful",
+        "You are amazing"
+      ],
+      "responses": [
+        "Thank you! I'm here to assist you.",
+        "I appreciate your kind words! How can I help you further?",
+        "Thanks for the compliment! What else can I assist you with?",
+        "I'm glad you think so! Do you have any other questions?",
+        "That's very kind of you! What else would you like to know?"
+      ]
+    },
+    {
+      "tag": "displeasure",
+      "patterns": [
+        "You are not helpful",
+        "You are useless",
+        "You are not good",
+        "You are terrible",
+        "You are bad"
+      ],
+      "responses": [
+        "I'm sorry to hear that. How can I assist you better?",
+        "I apologize if I wasn't helpful. Let's try again.",
+        "I'm sorry if I didn't meet your expectations. How can I improve?",
+        "I apologize for any inconvenience. Can we start over?",
+        "I'm sorry you are not satisfied. How can I assist you more effectively?"
+      ]
+    },
+    {
+      "tag": "curiosity",
+      "patterns": [
+        "Tell me more",
+        "Can you elaborate?",
+        "What else?",
+        "Any other details?",
+        "What else can you tell me?"
+      ],
+      "responses": [
+        "Sure, I'd be happy to provide more information. What specifically would you like to know more about?",
+        "Of course, I can elaborate. Could you please specify the topic?",
+        "Absolutely, I can provide more details. What are you interested in?",
+        "Certainly, I can share more. What would you like to know?",
+        "Definitely, I can tell you more. Can you please clarify your question?"
+      ]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "I didn't understand that",
+        "What do you mean?",
+        "Can you clarify?",
+        "That was unclear",
+        "Could you explain that?"
+      ],
+      "responses": [
+        "I'm sorry for the confusion. Let's try again. What can I assist you with?",
+        "My apologies if that was unclear. Could you please provide more details?",
+        "I'm sorry if I caused any confusion. Can you please elaborate on your question?",
+        "Apologies for the misunderstanding. Could you please rephrase your question?",
+        "I'm sorry if my response was confusing. Can you please clarify your query?"
+      ]
+    },
+    {
+      "tag": "company info",
+      "patterns": [
+        "Tell me about MindTech Digital Solutions",
+        "What does MindTech Digital Solutions do?",
+        "What services does MindTech Digital Solutions offer?",
+        "Who is the CEO of MindTech Digital Solutions?",
+        "Where is MindTech Digital Solutions located?"
+      ],
+      "responses": [
+        "MindTech Digital Solutions is a leading technology company. For more specific information, please visit our official website or contact our support team.",
+        "MindTech Digital Solutions provides a wide range of digital solutions. For more details, please visit our official website or get in touch with our support team.",
+        "Our CEO is a visionary leader who has been instrumental in the growth and success of MindTech Digital Solutions. For more information, please visit our official website.",
+        "MindTech Digital Solutions is headquartered in Bangalore, India. For more details, please visit our official website or contact our support team."
+      ]
+    },
+    {
+      "tag": "contact info",
+      "patterns": [
+        "How can I contact MindTech Digital Solutions?",
+        "What is the contact number of MindTech Digital Solutions?",
+        "What is the email address of MindTech Digital Solutions?",
+        "I want to get in touch with MindTech Digital Solutions"
+      ],
+      "responses": [
+        "You can contact MindTech Digital Solutions at +91 97425 60337 or email us at contact@mtds.in.",
+        "Our contact number is +91 97425 60337. Feel free to call us during business hours.",
+        "You can email us at contact@mtds.in. We'll get back to you as soon as possible.",
+        "To get in touch with MindTech Digital Solutions, you can call us at +91 97 42 56 03 37 or email us at contact@mtds.in."
+      ]
+    }
+        
+  ]
+}
